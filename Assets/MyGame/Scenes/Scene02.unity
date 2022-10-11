@@ -235,8 +235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dad9241c77ee7f449933393faf6e37c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Zahl: 0
-  ZahlText: {fileID: 682984551}
+  zahl: 0
+  zahlText: {fileID: 0}
 --- !u!4 &201847581
 Transform:
   m_ObjectHideFlags: 0
@@ -494,7 +494,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 201847580}
         m_TargetAssemblyTypeName: SceneTwo, Assembly-CSharp
-        m_MethodName: mult
+        m_MethodName: Mult
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -890,7 +890,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 201847580}
         m_TargetAssemblyTypeName: SceneTwo, Assembly-CSharp
-        m_MethodName: back
+        m_MethodName: Back
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1023,7 +1023,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 201847580}
         m_TargetAssemblyTypeName: SceneTwo, Assembly-CSharp
-        m_MethodName: plus
+        m_MethodName: Plus
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1156,7 +1156,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 201847580}
         m_TargetAssemblyTypeName: SceneTwo, Assembly-CSharp
-        m_MethodName: minus
+        m_MethodName: Minus
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1289,7 +1289,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 201847580}
         m_TargetAssemblyTypeName: SceneTwo, Assembly-CSharp
-        m_MethodName: divid
+        m_MethodName: Divid
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
